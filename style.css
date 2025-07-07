@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0a1d56;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.breaking-news {
+  background-color: #eaeaea;
+  padding: 20px;
+  text-align: center;
+}
+
+.breaking-news .headline {
+  font-size: 20px;
+  color: #d60000;
+  font-weight: bold;
+}
+
+.categories {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h3 {
+  color: #0a1d56;
+  border-bottom: 2px solid #0a1d56;
+  padding-bottom: 5px;
+}
+
+.article-summary a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.article-summary a:hover {
+  color: #0a1d56;
+}
+
+.news-article {
+  padding: 20px;
+}
+
+.news-article h1 {
+  color: #0a1d56;
+}
+
+.news-article .meta {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #0a1d56;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
